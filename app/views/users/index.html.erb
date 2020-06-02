@@ -1,0 +1,8 @@
+<% @users.each do |user| %>
+<div>
+  <%= user.id %>
+  <%= user.name %>
+  <%= user.email %>
+<% end %>
+</div>
+<div><%= link_to 'タスク一覧', tasks_path %></div>
